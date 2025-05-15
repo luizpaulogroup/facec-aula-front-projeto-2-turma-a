@@ -27,6 +27,8 @@ botao.addEventListener("click", function () {
         alert(cadastrar.msg);
         return;
     } else {
-        alert(cadastrar.msg);
+        let html = usuario.listar();
+
+        console.log(html);
     }
 });
